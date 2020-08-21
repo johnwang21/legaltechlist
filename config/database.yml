@@ -23,6 +23,9 @@ default: &default
 
 development:
   <<: *default
+  host: localhost
+  username: postgres
+  password: a
   database: legaltechlist_development
 
   # The specified database role being used to connect to postgres.
